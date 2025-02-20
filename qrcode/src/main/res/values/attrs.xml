@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QRCodeView">
+        <attr name="mask_color" format="color"/>
+        <attr name="scan_rect_border_color" format="color"/>
+        <attr name="scan_rect_border_width" format="dimension|reference"/>
+        <attr name="scan_rect_corner_color" format="color"/>
+        <attr name="scan_rect_corner_width" format="dimension|reference"/>
+        <attr name="scan_rect_corner_length" format="dimension|reference"/>
+        <attr name="scan_line_drawable" format="reference"/>
+        <attr name="scan_line_reverse" format="boolean"/>
+        <!--二维码捕捉区，矩形框宽高-->
+        <attr name="rect_width" format="dimension"/>
+    </declare-styleable>
+</resources>
